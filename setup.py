@@ -17,15 +17,15 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name = 'coinmarketcap',
-    packages = ['coinmarketcap'],
-    version = '5.0.3',
-    description = 'Python wrapper around the coinmarketcap.com API.',
-    author = 'Martin Simon',
-    author_email = 'me@martinsimon.me',
-    url = 'https://github.com/barnumbirr/coinmarketcap',
+    name = 'flask-procmc',
+    packages = ['flask-procmc'],
+    version = '0.0.1',
+    description = 'A python wrapper around the pro.coinmarketcap.com API for flask.',
+    author = 'Jordan Hansford',
+    author_email = 'hansfordjordan@gmail.com',
+    url = 'https://github.com/hansfordj/flask_procmc',
     project_urls={
-        'Bug Reports': 'https://github.com/barnumbirr/coinmarketcap/issues',
+        'Bug Reports': 'https://github.com/hansfordj/flask_procmc/issues',
         'Buy me a coffee': 'https://github.com/barnumbirr/coinmarketcap#buy-me-a-coffee',
     },
     license = 'Apache v2.0 License',
@@ -33,14 +33,13 @@ setup(
     'requests>=2.18.4',
     'requests_cache>=0.4.13'
     ],
-    keywords = ['cryptocurrency', 'API', 'coinmarketcap','BTC', 'Bitcoin', 'LTC', 'Litecoin', 'XRP', 'Ripple', 'ETH', 'Ethereum '],
+    keywords = ['cryptocurrency', 'API', 'coinmarketcap','BTC', 'Bitcoin', 'LTC', 'Litecoin', 'XMR', 'Monero', 'ETH', 'Ethereum '],
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     long_description = long_description,
